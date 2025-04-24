@@ -93,8 +93,10 @@ class AutorController {
 
       const regex = new RegExp(nome, "i")
 
+      const regex2 = new RegExp(nacionalidade, "i")
+
       if (nome) busca.nome = regex
-      if (nacionalidade) busca.nacionalidade = nacionalidade
+      if (nacionalidade) busca.nacionalidade = regex2
 
       res.status(200).send(await autores.find(busca))
     } catch (erro) {
