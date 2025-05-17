@@ -1,10 +1,10 @@
 # 2404-api-node-express
-## Tecnologias utilizadas
+## Technologies used
 - JavaScript
 
 - Node js
-## Como utilizar
-Roda no terminal os seguintes comandos:
+## How to use
+Run the following commands in the terminal:
 
 ```
 npm i sequelize
