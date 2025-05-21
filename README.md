@@ -1,4 +1,4 @@
-# 2404-api-node-express
+# api-node-express
 ## Technologies used
 - JavaScript
 
